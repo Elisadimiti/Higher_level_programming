@@ -2,6 +2,7 @@
 """ Contain the function that find peak """
 
 def find_peak(list_of_integers):
+    """Finds a peak in a list of unsorted integers"""
     length = len(list_of_integers)
     if length == 0:
         return None
