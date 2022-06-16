@@ -1,6 +1,7 @@
-const $headerElem = $("header");
-const $divRedheader = $("div#red_header");
-
-$divRedheader.on("click", function () {
-  $headerElem.css("color", "#FF0000");
+/*
+  updates the text color of the HTML tag HEADER to red (#FF0000)
+  when the user clicks on the tag DIV#red_header
+*/
+$('DIV#red_header').click(function () {
+  $('HEADER').css('color', '#FF0000');
 });

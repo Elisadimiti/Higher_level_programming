@@ -1,14 +1,21 @@
-const $headerElem = $('header');
-const $divRedHeader = $('DIV#toggle_header');
+/*
+  toggles the class of the HTML tag HEADER to red (#FF0000)
+  when the user clicks on the tag DIV#toggle_header
+*/
+const header = $('HEADER');
+const divTog = $('DIV#toggle_header');
 
-$divRedHeader.on('click', () => {
-  const currentClass = $headerElem.attr('class');
+if (!header.hasClass('red') && !header.hasClass('green')) {
+  header.addClass('red');
+  header.removeClass('green');
+}
 
-  if (currentClass === 'green') {
-    $headerElem.toggleClass(`${currentClass} red`);
-  }
-
-  if (currentClass === 'red') {
-    $headerElem.toggleClass(`${currentClass} green`);
+divTog.click(() => {
+  if (header.hasClass('red')) {
+    header.addClass('green');
+    header.removeClass('red');
+  } else {
+    header.addClass('red');
+    header.removeClass('green');
   }
 });

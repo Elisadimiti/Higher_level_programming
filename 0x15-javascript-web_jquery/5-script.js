@@ -1,6 +1,6 @@
-const $listElem = $('ul.my_list');
-const $addItemElem = $('div#add_item');
-
-$addItemElem.on('click', () => {
-  $listElem.append('<li>Item</li>');
+/*
+  adds a LI element to a list when the user clicks on the tag DIV#add_item
+*/
+$('DIV#add_item').click(function () {
+  $('UL.my_list').append('<li>Item</li>');
 });
