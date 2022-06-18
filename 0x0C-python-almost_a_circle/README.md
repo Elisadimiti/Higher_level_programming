@@ -110,4 +110,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Elisa Hezikiah Dimiti** - [Elisa](https://github.com/elisadimiti)
+* **Elisa H Dimiti** - [Elisadimiti](https://github.com/Elisadimiti)
